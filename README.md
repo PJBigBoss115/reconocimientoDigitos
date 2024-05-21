@@ -1,8 +1,8 @@
 # Deep Learning con Python y Keras
 
-##Reconocimiento de dígitos
+## Reconocimiento de dígitos
 
-###Cargar MNIST
+### Cargar MNIST
 
 El conjunto de datos se descarga automáticamente la primera vez que se llama a esta función y se almacena en su directorio de inicio en `~/.keras/datasets/mnist.pkl.gz` como un archivo de 15 megabytes. 
 
@@ -10,7 +10,7 @@ Primero escribiremos un pequeño script para descargar y visualizar las primeras
 
 ![image](https://github.com/PJBigBoss115/reconocimientoDigitos/assets/65696918/0c6a0200-a9a0-433b-864f-c25844f035d7)
 
-###MLP de línea base
+### MLP de línea base
 
 Vamos a usar un MLP clásico como base para la comparación con modelos de redes neuronales convolucionales. 
 Importamos las clases, funciones y el dataset MNIST.
@@ -24,7 +24,7 @@ Los valores de los píxeles son números enteros, por lo que los convertimos a p
 
 ![image](https://github.com/PJBigBoss115/reconocimientoDigitos/assets/65696918/a365e02c-3c18-4dd1-ac95-83751b065ffa)
 
-###CNN para MNIST
+### CNN para MNIST
 
 Ahora que hemos visto cómo cargar el conjunto de datos MNIST y entrenar un modelo simple de perceptrón multicapa en él, es hora de desarrollar una red neuronal convolucional más sofisticada o un modelo CNN. 
 
@@ -34,7 +34,7 @@ Crearemos una CNN simple para MNIST que demuestra cómo utilizar todos los aspec
 
 ![image](https://github.com/PJBigBoss115/reconocimientoDigitos/assets/65696918/f862029f-e882-4c7a-af80-fd9d0b6a7ee1)
 
-###CNN más profunda para MNIST
+### CNN más profunda para MNIST
 
 Esta vez definimos una arquitectura con más capas de convolucionales, Max-pooling y capas completamente conectadas.
 
